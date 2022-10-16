@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Text, SafeAreaView, View, Button } from "react-native";
+import { Text, SafeAreaView, View } from "react-native";
 
 import styles from "../styles/Styles";
 
@@ -32,7 +32,6 @@ const TruckView = (truckName) => {
   return (
     <>
       <SafeAreaView>
-        <Button />
         <Text style={styles.menuHeaderStyles}>{name}</Text>
         <Text style={styles.descriptionStyles}>{description}</Text>
         <View style={styles.ownerLoginPageLine} />

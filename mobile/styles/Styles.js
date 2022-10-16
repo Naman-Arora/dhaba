@@ -81,6 +81,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 20,
     marginVertical: 10,
+    marginHorizontal: 20,
   },
 
   headerStyles: {
