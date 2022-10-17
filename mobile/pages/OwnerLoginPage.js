@@ -64,7 +64,7 @@ const OwnerAccountPage = ({ navigation }) => {
       marginHorizontal: 25,
       borderRadius: 10,
       height: 50,
-      // borderColor: okay ? 'black' : 'red',
+      // borderColor: okay ? "black" : "red",
     },
   });
 

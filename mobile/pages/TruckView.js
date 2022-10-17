@@ -23,8 +23,8 @@ const TruckView = (truckName) => {
 
   const menuItems = foodItems.map((item, index) => (
     <View key={index} style={styles.menuStyles}>
-      <Text style={{fontSize: 17.5, fontStyle: 'italic', textAlign: 'left'}}>{item.name}</Text>
-      <Text style={{fontSize: 17.5, fontStyle: 'italic', textAlign: 'right'}}>
+      <Text style={{fontSize: 17.5, fontStyle: "italic", textAlign: "left"}}>{item.name}</Text>
+      <Text style={{fontSize: 17.5, fontStyle: "italic", textAlign: "right"}}>
         ${item.price}
       </Text>
     </View>

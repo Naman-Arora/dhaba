@@ -3,7 +3,7 @@ import { Text, TouchableOpacity, View, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 import styles from "../styles/Styles";
-import logo from '../assets/truck.png';
+import logo from "../assets/truck.png";
 
 const FirstTimeView = ({ navigation }) => {
 
@@ -12,7 +12,7 @@ const FirstTimeView = ({ navigation }) => {
   }
 
   function clickedCustomer() {
-    navigation.navigate('Maps');
+    navigation.navigate("Maps");
   }
 
   return (

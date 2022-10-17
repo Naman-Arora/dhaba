@@ -180,7 +180,7 @@ const styles = StyleSheet.create({
   },
 
   menuStyles: {
-    whiteSpace: 'nowrap',
+    whiteSpace: "nowrap",
     marginHorizontal: 30,
     marginVertical: 15,
   },
